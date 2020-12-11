@@ -530,10 +530,8 @@ address a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter-list li:hover,
-.filter-list li:focus,
-.button:hover,
-.button:focus {
+.filter-list button:hover,
+.filter-list button:focus {
   background-color: var(--accent-color);
   color: var(--additional-color);
   border-radius: 4px;
@@ -558,7 +556,6 @@ address a {
   margin-right: 30px;
   margin-bottom: 30px;
 
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 .project-list .item:nth-child(3n) {
@@ -571,6 +568,8 @@ address a {
   display: block;
   width: 100%;
   overflow: hidden;
+
+  border: 1px solid #eeeeee;
   background-color: var(--additional-color);
 }
 .project-list a:hover,
